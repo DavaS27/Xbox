@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.star {
+	min-height: 100vh;
+	background: url(../img/Star-Wars-Battlefront-II-combat.jpg) no-repeat center /
+		cover;
+}
+
+.star-content {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.star-title {
+	color: #fff;
+	font-size: 75px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 10px;
+}
+.star-2 {
+	color: #fff;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 80px;
+}
+.star-link {
+	color: #fff;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 21px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: chartreuse;
+	text-decoration: none;
+	padding: 9px 25px;
+	border-radius: 4px;
+}
+
+.pads {
+	padding: 114px 0 145px 0;
+	background: url(../img/Rectangle.jpg) no-repeat center / cover;
+}
+.container {
+	max-width: 1017px;
+	margin: 0 auto;
+}
+.pads-title {
+	font-size: 48px;
+	line-height: 56px;
+	color: #ffffff;
+	margin-bottom: 10px;
+}
+.pads-text {
+	font-size: 24px;
+	line-height: 28px;
+	color: #ffffff;
+	margin-bottom: 37px;
+	max-width: 530px;
+}
+.pads-block {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+.pads-button {
+	padding: 20px 50px;
+	background: #373a3c;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 21px;
+	color: #ffffff;
+	border-radius: 4px;
+	transition: all 0.5s ease 0s;
+}
+.pads-button:hover {
+	background: #8dd83d;
+}
+.exclusive {
+	padding: 70px 0 140px 0;
+	background: url(../img/exclusive-bg.jpg) no-repeat center / cover;
+}
+.exclusive-title {
+	color: #8dd83d;
+	text-align: center;
+	font-size: 45px;
+	font-weight: 700;
+	margin: 0 0 75px 0;
+}
+.exclusive-row {
+	margin: 0 0 90px 0;
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+}
+.exclusive-card {
+	flex: 0 0 320px;
+	background: #ffffff;
+}
+.exclusive-card-image-1 {
+	height: 180px;
+	background: url(../img/exclusive-image-1.jpg) no-repeat center / cover;
+}
+.exclusive-card-image-2 {
+	height: 180px;
+	background: url(../img/exclusive-image-2.jpg) no-repeat center / cover;
+}
+.exclusive-card-image-3 {
+	height: 180px;
+	background: url(../img/exclusive-image-3.jpg) no-repeat center / cover;
+}
+.exclusive-card-image-4 {
+	height: 180px;
+	background: url(../img/exclusive-image-4.jpg) no-repeat center / cover;
+}
+.exclusive-button {
+	background: #435766;
+	max-width: 200px;
+	padding: 16px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	background: #8dd83d;
+	text-decoration: none;
+}
+.button {
+	display: flex;
+	justify-content: center;
+	background: #8dd83d;
+	text-decoration: none;
+	padding: 10px;
+}
+.card-text-block {
+	display: block;
+}
